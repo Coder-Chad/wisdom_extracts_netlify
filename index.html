@@ -1,0 +1,1712 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marina Jacobi Wisdom Extracts</title>
+    <link href="https://fonts.googleapis.com/css2?family=UnifrakturMaguntia&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="styles.css">
+    <!-- ... other head elements ... -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body class="bg-yellow-50">
+    
+    <nav class="sticky top-0 bg-yellow-800 text-yellow-100 rounded-lg">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="flex justify-between items-center">
+                <div>
+                    <a href="#" class="flex items-center py-3 px-2 text-yellow-100 hover:text-white">
+                        <span class="font-bold">The Daily Extract</span>
+                    </a>
+                </div>
+                <!-- Mobile menu button -->
+                <div class="md:hidden">
+                    <button id="mobile-menu-button" class="text-yellow-100 hover:text-white focus:outline-none">
+                        <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                        </svg>
+                    </button>
+                </div>
+                <!-- Desktop menu -->
+                <div class="hidden md:flex items-center space-x-1">
+                    <a href="#" class="py-3 px-3 text-yellow-100 hover:text-white">Home</a>
+                    <a href="about.html" class="py-3 px-3 text-yellow-100 hover:text-white">About</a>
+                </div>
+            </div>
+            <!-- Mobile menu -->
+            <div id="mobile-menu" class="md:hidden hidden">
+                <a href="#" class="block py-2 px-4 text-sm hover:bg-yellow-700">Home</a>
+                <a href="about.html" class="block py-2 px-4 text-sm hover:bg-yellow-700">About</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="newspaper max-w-4xl mx-auto mt-8 bg-white p-8 shadow-lg rounded-lg">
+        <header class="text-center border-b-2 border-black mb-8">
+            <h1 class="font-newspaper-heading text-5xl mb-2">The Daily Extract</h1>
+            <p class="date italic" id="current-date"></p>
+        </header>
+        
+            
+<!-- <p class="text-lg leading-relaxed">Your article text here...</p> -->
+        <main>
+            <h3 class="text-center mx-auto text-3xl mb-10">JumpStart Wisdom Extracts</h3>
+            <div class="grid grid-cols-5 gap-4">
+                <div class="col-span-1">
+                    <!-- This div will take up 1/5 of the page -->
+                    <a href="#article1" class="newspaper-link read-more">
+                        <p class="inline text-2xl mb-4">S1 - E1</p>
+                    </a>
+                </div>
+                <div class="col-span-4 mb-12">
+                    <p class="text-justify leading-relaxed preview-text" data-full-text="article1"></p>
+                </div>
+            </div>
+            <div class="grid grid-cols-5 gap-4">
+                <div class="col-span-1">
+                    <!-- This div will take up 1/5 of the page -->
+                    <a href="#article2" class="newspaper-link">
+                        <p class="inline text-2xl mb-4">S1 - E2</p>
+                    </a>
+                </div>
+                <div class="col-span-4 mb-12">
+                    <p class="text-justify leading-relaxed preview-text" data-full-text="article2"></p>
+                </div>
+            </div>
+            <div class="grid grid-cols-5 gap-4">
+                <div class="col-span-1">
+                    <!-- This div will take up 1/5 of the page -->
+                    <a href="#article3" class="newspaper-link">
+                        <p class="inline text-2xl mb-4">S1 - E3</p>
+                    </a>
+                </div>
+                <div class="col-span-4 mb-12">
+                    <p class="text-justify leading-relaxed preview-text" data-full-text="article3"></p>
+                </div>
+            </div>
+            <div class="grid grid-cols-5 gap-4">
+                <div class="col-span-1">
+                    <!-- This div will take up 1/5 of the page -->
+                    <a href="#article4" class="newspaper-link">
+                        <p class="inline text-2xl mb-4">S1 - E4</p>
+                    </a>
+                </div>
+                <div class="col-span-4 mb-12">
+                    <p class="text-justify leading-relaxed preview-text" data-full-text="article4"></p>
+                </div>
+            </div>
+            <div class="grid grid-cols-5 gap-4">
+                <div class="col-span-1">
+                    <!-- This div will take up 1/5 of the page -->
+                    <a href="#article5" class="newspaper-link">
+                        <p class="inline text-2xl mb-4">S1 - E5</p>
+                    </a>
+                </div>
+                <div class="col-span-4 mb-12">
+                    <p class="text-justify leading-relaxed preview-text" data-full-text="article5"></p>
+                </div>
+            </div>
+            <div class="grid grid-cols-5 gap-4">
+                <div class="col-span-1">
+                    <!-- This div will take up 1/5 of the page -->
+                    <a href="#article6" class="newspaper-link">
+                        <p class="inline text-2xl mb-4">S1 - E16</p>
+                    </a>
+                </div>
+                <div class="col-span-4 mb-12">
+                    <p class="text-justify leading-relaxed preview-text" data-full-text="article6"></p>
+                </div>
+            </div>
+            <div class="grid grid-cols-5 gap-4">
+                <div class="col-span-1">
+                    <!-- This div will take up 1/5 of the page -->
+                    <a href="#article7" class="newspaper-link">
+                        <p class="inline text-2xl mb-4">S2 - E7</p>
+                    </a>
+                </div>
+                <div class="col-span-4 mb-12">
+                    <p class="text-justify leading-relaxed preview-text" data-full-text="article7"></p>
+                </div>
+            </div>
+            <div class="grid grid-cols-5 gap-4">
+                <div class="col-span-1">
+                    <!-- This div will take up 1/5 of the page -->
+                    <a href="#article8" class="newspaper-link">
+                        <p class="inline text-2xl mb-4">S2 - E13</p>
+                    </a>
+                </div>
+                <div class="col-span-4 mb-12">
+                    <p class="text-justify leading-relaxed preview-text" data-full-text="article8"></p>
+                </div>
+            </div>
+            <div class="grid grid-cols-5 gap-4">
+                <div class="col-span-1">
+                    <!-- This div will take up 1/5 of the page -->
+                    <a href="#article9" class="newspaper-link">
+                        <p class="inline text-2xl mb-4">S2 - E15</p>
+                    </a>
+                </div>
+                <div class="col-span-4 mb-12">
+                    <p class="text-justify leading-relaxed preview-text" data-full-text="article9"></p>
+                </div>
+            </div>
+            <div class="grid grid-cols-5 gap-4">
+                <div class="col-span-1">
+                    <!-- This div will take up 1/5 of the page -->
+                    <a href="#article10" class="newspaper-link">
+                        <p class="inline text-2xl mb-4">S3 - E1</p>
+                    </a>
+                </div>
+                <div class="col-span-4 mb-12">
+                    <p class="text-justify leading-relaxed preview-text" data-full-text="article10"></p>
+                </div>
+            </div>
+            <div class="grid grid-cols-5 gap-4">
+                <div class="col-span-1">
+                    <!-- This div will take up 1/5 of the page -->
+                    <a href="#article11" class="newspaper-link">
+                        <p class="inline text-2xl mb-4">S3 - E8</p>
+                    </a>
+                </div>
+                <div class="col-span-4 mb-12">
+                    <p class="text-justify leading-relaxed preview-text" data-full-text="article11"></p>
+                </div>
+            </div>
+            <div class="grid grid-cols-5 gap-4">
+                <div class="col-span-1">
+                    <!-- This div will take up 1/5 of the page -->
+                    <a href="#article12" class="newspaper-link">
+                        <p class="inline text-2xl mb-4">S3 - E11</p>
+                    </a>
+                </div>
+                <div class="col-span-4 mb-12">
+                    <p class="text-justify leading-relaxed preview-text" data-full-text="article12"></p>
+                </div>
+            </div>
+            <div class="grid grid-cols-5 gap-4">
+                <div class="col-span-1">
+                    <!-- This div will take up 1/5 of the page -->
+                    <a href="#article13" class="newspaper-link">
+                        <p class="inline text-2xl mb-4">S3 - E38</p>
+                    </a>
+                </div>
+                <div class="col-span-4 mb-12">
+                    <p class="text-justify leading-relaxed preview-text" data-full-text="article13"></p>
+                </div>
+            </div>
+            <div class="grid grid-cols-5 gap-4">
+                <div class="col-span-1">
+                    <!-- This div will take up 1/5 of the page -->
+                    <a href="#article14" class="newspaper-link">
+                        <p class="inline text-2xl mb-4">S4 - E2</p>
+                    </a>
+                </div>
+                <div class="col-span-4 mb-12">
+                    <p class="text-justify leading-relaxed preview-text" data-full-text="article14"></p>
+                </div>
+            </div>
+            <div class="grid grid-cols-5 gap-4">
+                <div class="col-span-1">
+                    <!-- This div will take up 1/5 of the page -->
+                    <a href="#article15" class="newspaper-link">
+                        <p class="inline text-2xl mb-4">S4 - E7</p>
+                    </a>
+                </div>
+                <div class="col-span-4 mb-12">
+                    <p class="text-justify leading-relaxed preview-text" data-full-text="article15"></p>
+                </div>
+            </div>
+            <div class="grid grid-cols-5 gap-4">
+                <div class="col-span-1">
+                    <!-- This div will take up 1/5 of the page -->
+                    <a href="#article16" class="newspaper-link">
+                        <p class="inline text-2xl mb-4">S4 - E9</p>
+                    </a>
+                </div>
+                <div class="col-span-4 mb-12">
+                    <p class="text-justify leading-relaxed preview-text" data-full-text="article16"></p>
+                </div>
+            </div>
+        
+        </main>
+    </div>
+<!-- Hidden full text content -->
+<div id="article1" class="full-text max-w-4xl mx-auto bg-white p-8 shadow-lg mt-4 preserve-newlines">
+Wisdom Extract of: (S1 E1 - How to literally do anything Quantum Manifestation - Marina Jacobi - law of attraction)
+
+SUMMARY:
+Marina Jacobi and Joe Penna discuss manifestation and the quantum structure.
+
+IDEAS:
+- Everything is made from frequencies of light and sound that combine to create plasma
+- You are the structure, the universe, the quantum field, projecting your reality
+- Parallel realities exist simultaneously; you shift between them based on thoughts and emotions
+- Staying in a negative emotion crystallizes a negative timeline; positive shifts to positive
+- You cannot imagine something if you don't know its vibration in the quantum field
+- Believe and want something to happen without questioning or expecting a specific outcome
+- Agreements and lessons may need to be completed before certain manifestations can occur
+- God is not outside of you; you are God, made from the quantum structure
+- When interacting with others, project positive emotions to shift to a positive outcome
+- Accept what is with gratitude; imagine what you want without expectations of how
+- Pass lessons with excellence, through the heart and positivity, to gain needed knowledge
+- Dimensional manifestation is attraction of similar vibrational frequencies in the quantum field
+- Keep vibrating positively moment to moment, even if others are being negative
+- Binaural beats can be a permission slip to calm and expand consciousness for some
+- Humanity's process involves some learning through challenges to enable mass awakening
+- Ringing in the ears may be picking up frequencies as part of the ascension process
+
+INSIGHTS:
+- We are the quantum structure itself, not separate from the field of infinite possibility
+- Our thoughts, emotions and actions are constantly shifting us between parallel realities
+- Manifestation requires 100% belief without expectations of specific outcomes or timing 
+- Interacting positively with others, regardless of their actions, shifts us to positive realities
+- Challenges and delays in manifestation may be due to soul agreements and lessons
+- Money is an illusion; staying in gratitude and positivity attracts all forms of abundance
+- Awakening humanity involves some souls undergoing difficulties to catalyze collective growth
+- Ascension symptoms like ear ringing are frequencies moving us into higher consciousness
+- The true self vibrates from the heart with unconditional love; that manifests infinity
+- Mastering manifestation means instantaneous results with a single positive thought
+
+QUOTES:
+- "You are the structure. There is nothing outside of you. You are the creator."
+- "If you believe something and if you want something to happen, you cannot question the outcome."
+- "You have to let go of any expectations of what you want to do and how you're going to do it."
+- "It's an illusion. Your hologram, you're manifesting. It doesn't matter if you have one dollar or 1 million dollar."
+- "Do not put condition in the structure. If you put a condition in the structure, if you have expectations, you're going to perceive back everything with conditioning to you."
+- "It doesn't matter what somebody else is doing. What matter is the vibration, the emotion and the deeds that you're projecting at that time."
+- "You cannot perceive something if you're not the vibration of it."
+- "Do not put a condition and start giving out of your heart, because your true self vibrates from the heart, vibrates from the love structure."
+
+HABITS:
+- Shifting emotions to the positive immediately when feeling out of alignment
+- Expressing gratitude for everything, accepting what is, to enable manifestation
+- Imagining desired outcomes without expectations of how they will come about
+- Interacting with others from the heart with unconditional positivity 
+- Persisting in positive vibration moment to moment to crystallize positive timelines
+- Recognizing challenges as opportunities to learn, grow and help others
+- Letting synchronicities and intuition guide actions in the flow of manifestation
+- Practicing manifestation principles consistently to increase speed and ease of results
+
+FACTS:
+- The quantum field is made of light and sound frequencies that combine into plasma
+- Parallel realities exist simultaneously and we shift between them with each thought
+- The higher the frequency of your reality, the closer it is to ET consciousness 
+- There is no time; all possible realities already exist in the quantum field
+- Agreements made before birth may require certain lessons to be completed
+- Religion and science both understand the quantum structure but have been separated
+- Ringing in the ears is a common symptom of picking up ascension frequencies
+- Instantaneous manifestation is possible by holding a single positive thought
+
+REFERENCES:
+- MarinaJacobi.com for booking sessions, webinars, and making donations to support her work
+- JoePenaProductions.com for video editing and production services from Marina's co-host
+- Marina's mailing list on her website homepage to keep up with her latest activities 
+- Marina's next pre-recorded webinar on ascension and connecting with ETs
+- Marina's book that someone donated money for on her website
+- Binaural beats as a manifestation tool that works as a permission slip for some
+
+ONE-SENTENCE TAKEAWAY:
+You are the quantum creator of your reality; master your vibration to manifest infinity.
+
+RECOMMENDATIONS:
+- Practice shifting emotions to the positive whenever you notice yourself feeling negative
+- Express gratitude and accept current circumstances to open the flow of manifestation
+- Visualize desired outcomes without attachment to how or when they will manifest
+- Interact with others from your heart, projecting unconditional love, to shift realities
+- Persist in positive vibration from moment to moment to crystallize positive timelines
+- View challenges as soul-level opportunities to learn, grow and be of service
+- Follow your excitement and intuition to be in alignment with manifestations
+- Study and practice manifestation principles daily to increase your mastery
+
+<a href="https://rumble.com/vt7n6x-how-to-literally-do-anything-quantum-manifestation-1-marina-jacobi-s1e1-law.html" class="newspaper-link" >Click to watch the video.</a>
+</div>
+<div id="article2" class="full-text max-w-4xl mx-auto bg-white p-8 shadow-lg mt-4 preserve-newlines">
+Wisdom Extract of: (S1 E2 - QM Code - Mobilizing Structures - Marina Jacobi Co-host Joe Pena)
+
+SUMMARY:
+Marina Jacobi presents a deep dive into the quantum structure of reality and how to manifest your desired reality by controlling your emotions, thoughts and actions moment-to-moment. Co-hosted by Joe Pena.
+
+IDEAS:
+- Everything in the quantum field is based on plasma, magnetic and gravitational fields interacting
+- Consciousness is one particle flickering next to itself infinitely, creating parallel realities 
+- You can only recall a reality if you know its vibrational frequency
+- You are shifting between parallel realities moment to moment based on your vibration
+- To manifest, disengage from negativity, find neutrality, then project the positive reality you want
+- Gratitude neutralizes negative situations and allows you to project a positive outcome
+- Affirmations stating what you want in the now are effective for steady positive projection
+- We each individually create our own ascension process through our moment-to-moment projections
+- Even if you still see negativity, keep projecting the positive reality you want to experience
+
+INSIGHTS:
+- You are the creator of your reality, shifting between infinite parallel realities moment-to-moment
+- Your emotions are the remote control that determine which parallel reality you project and experience  
+- Neutrality/zero point allows you to consciously choose the reality you want to project
+- Increasing the intensity of positive emotion makes the projection into the quantum field more potent
+- Letting go of past hurts allows you to crystallize a completely new and different positive timeline
+- Ascension is an individual process based on consistently projecting positive frequencies
+- All negativity that doesn't match 5D frequencies will eventually disappear from your timeline
+- Time is fractal - each moment you are projecting a completely new reality
+
+QUOTES:
+- "Consciousness is made of one particle that is vibrating in a very high speed of vibration, and it's appearing next to itself, next to itself, next to itself to infinite number. That's what consciousness is."
+- "At the moment you think 100%, remember manifestation is 100%, all of a sudden that becomes a reality for you."
+- "Manifestation in a quantum is now. You co-exist simultaneously everywhere."
+- "Every moment to moment to moment you creating a brand new and brand new and brand new parallel reality every moment."
+- "Consciousness is one particle that is flickering next to itself, next to itself, next to itself, to infinite amount of parallel realities, and you coexist at the same time."
+
+HABITS:
+- Pull yourself out of negative situations and find neutrality/zero point before choosing your response
+- Switch your emotions to the positive like an actor, really feeling it, to project that reality
+- Pay attention to your thoughts and imaginings, as you are constantly projecting those frequencies
+- Express gratitude even for challenging situations to neutralize them and allow positive projection
+- Examine if your motivations are coming from ego or the heart when making choices
+
+FACTS:
+- Consciousness is made of one particle flickering next to itself infinitely fast
+- You are shifting between parallel realities every moment based on the frequency you are projecting
+- Manifestation happens in the now moment, not in the future
+- Intense positive emotion makes your reality projection into the quantum field more potent 
+- We are each individually responsible for our own ascension process through our frequency projection
+
+REFERENCES:
+- Marina Jacobi's previous Quantum Manifestation webinar 
+- Books on nanotechnology and the harmonic reactor on Marina's website
+- Council of Nine and 11 Dimensional Beings as sources of information
+
+ONE-SENTENCE TAKEAWAY:
+You are the creator of your reality, shifting between infinite parallel possibilities moment-to-moment through your frequency.
+
+RECOMMENDATIONS: 
+- Watch Marina's previous Quantum Manifestation webinar before this one for important background
+- Treat life like you are an actor choosing the emotions you want to feel and project
+- Examine your motivations to see if they are coming from ego or the heart
+- Find neutrality in challenging situations, then consciously project the positive outcome you want
+- Revisit these concepts often to really integrate them into your moment-to-moment awareness
+
+<a href="https://rumble.com/vthi6d-quantum-manifestation-code-mobilizing-structures-2-marina-jacobi-co-host-jo.html" class="newspaper-link" >Click to watch the video.</a>
+</div>
+<div id="article3" class="full-text max-w-4xl mx-auto bg-white p-8 shadow-lg mt-4 preserve-newlines">
+Wisdom Extract of: (S1 E3 - QM - Fluctuating Realities - Marina Jacobi & Co-Host Joe Pena)
+
+SUMMARY:
+Marina Jacobi discusses fluctuating realities, truth vs. lie, and how everything works through quantum structures. She explains bi-location and teleportation.
+
+IDEAS:
+- Consciousness is one particle flickering through time-space, existing simultaneously in infinite parallel realities
+- Fluctuating realities occur when you give off conflicting frequencies/emotions, causing quantum field instability
+- Lies/deception create denser, negative frequencies that can manifest unintended negative outcomes 
+- Stay truthful to your heart's vibration to maintain positive frequencies and outcomes
+- You can bi-locate/teleport by eliminating the illusion of linear movement between realities
+- Light languages are sacred consciousness languages meant to activate certain individuals
+- We can download information from other realities/dimensions and know answers instantaneously 
+- The Council of Nine works with Stargates for intergalactic ascension, extending human lifespans
+- Sexual energy shared from the heart creates a higher timeline than lust
+- Words are frequencies that imprint on our subconscious, so speak positively
+
+INSIGHTS:
+- Our true, heart-based frequency is most potent; lies create fluctuating negative outcomes
+- Judgment-free understanding allows others their reality while you maintain your positive frequency
+- Bi-location/teleportation occur by transcending the illusion of linear time-space between realities
+- Light language activates individuals to download information from other dimensions 
+- Intimate heart-connection energy can be held independent of physical interaction
+- Carefully consider the hidden frequencies of your words as they imprint your reality
+- Genius is innate to our quantum consciousness when we release limiting beliefs
+- Intergalactic Stargates offer an ascension path to greatly extended human lifespans
+
+QUOTES:
+- "Energy is energy, it doesn't matter because energy is not biased, it just gonna go the way you gave it, but you don't know the outcome."
+- "You don't have to go moment to moment to moment because there's no time. I can literally get rid of those two and go directly into the other one because in space, on the quantum field, there is no time."
+- "Your consciousness will know, but at the same time, do not give a false pretense."
+- "Please when you talk, talk from the heart with a positive intention, positive words."
+- "In a quantum field, in a consciousness itself, you don't need to go by explanation, you simply know the answer."
+
+HABITS:
+- Staying truthful to your heart's vibration and emotions in each moment
+- Redirecting thoughts and emotions to maintain a positive frequency when you notice negativity
+- Giving love, light and understanding from the heart in all situations 
+- Speaking with positive intention and carefully considering the impact of your words
+- Trusting your innate genius and releasing limiting beliefs about your abilities
+- Focusing intimacy on heart-connection rather than just physical interaction
+- Accepting light language and downloads from other dimensions as activation and knowledge
+
+FACTS:
+- Consciousness is one particle that flickers to appear simultaneously in infinite parallel realities
+- Fluctuating between conflicting frequencies causes instability in the quantum field and your reality
+- Lies and deception are denser frequencies that often manifest as negative outcomes
+- Linear time-space is an illusion; you can bi-locate between realities by transcending it
+- Light languages are sacred consciousness languages that activate and download information to individuals
+- The Council of Nine works with Stargates that enable intergalactic travel and extended lifespans
+- Words carry hidden frequencies that imprint on our subconscious and shape our reality
+
+REFERENCES:
+- Marina Jacobi's YouTube videos "Quantum Manifestation" and "Mobilizing Structures" as prerequisites 
+- William Reich, a psychologist who created machines and environments for tantra and evolution
+- Sheldon Nidle, who channels messages on human evolution and sensual relationships
+- Mary Rodwell's work with star children who can read each other's unique light languages
+- Mathematical geniuses who know the answers to complex equations instantaneously
+
+ONE-SENTENCE TAKEAWAY:
+Embody your heart's true frequency to manifest positive realities across infinite quantum possibilities.
+
+RECOMMENDATIONS:
+- Observe your thoughts and emotions, redirecting them to maintain a high-vibrational state
+- Speak truthfully from the heart with positive intention, as words powerfully shape reality
+- Release limiting beliefs and trust in the genius of your innate quantum consciousness
+- Focus intimate connections on a heart-based energetic resonance beyond just the physical
+- Stay open to light language and downloads as activation and knowledge from other dimensions
+- Consider the hidden frequencies in your words and choose them to uplift your reality
+- Transcend linear time-space between realities to bi-locate and access quantum possibilities
+- Connect with intergalactic Stargates to explore extended lifespans and higher-dimensional experiences
+
+<a href="https://rumble.com/vthild-quantum-manifestation-fluctuating-realities-3-marina-jacobi-and-co-host-joe.html" class="newspaper-link" >Click to watch the video.</a>
+</div>
+<div id="article4" class="full-text max-w-4xl mx-auto bg-white p-8 shadow-lg mt-4 preserve-newlines">
+Wisdom Extract of: (S1 E4 QM - Money Structure - Marina Jacobi & Co-Host Joe Pena)
+
+SUMMARY: 
+Marina Jacobi discusses the quantum structure of money and abundance, as explained to her by extraterrestrials and higher consciousness.
+
+IDEAS:
+- You are made of sound, light, plasma, and gravitational fields.
+- Every thought and emotion co-creates and reprints a new reality.  
+- Giving conditions like money limits abundance from the quantum field.
+- Consciousness itself is based on the heart's unconditional love structure.
+- Matching the frequency of abundance allows manifesting without money conditions.
+- Implementing passion without money expectations crystallizes the abundance timeline.  
+- Synchronicities provide what's needed without paying when vibrating at heart-frequency.
+- Increasing frequencies require matching the heart's vibration to experience abundance.
+- Conditioning money manifestation creates a narrow reality of lack.
+- Practicing heart-giving opens the quantum field's infinite probabilities.
+
+INSIGHTS:
+- Abundance arises from heart-based giving, not money-based conditions.
+- Projecting money conditions limits manifestation to that narrow vibration.
+- Consciousness itself operates from the heart's unconditional love frequency.
+- Matching the increasing frequencies requires releasing money attachments.
+- Implementing passion crystallizes an abundant reality beyond money.
+- The quantum field provides infinite possibilities beyond money limitations.
+- Releasing conditions allows synchronistic provisions aligned with heart vibrations.
+- Projecting from the heart creates an abundant societal timeline.
+- Abundance is a state of being, not money acquisition.
+- Ascension requires transcending the money vibration for true abundance.
+
+QUOTES:
+- "Consciousness itself is based on the structure of Love basically the heart structure the highest Consciousness can possibly be."
+- "If you don't vibrate on that and put a condition through the money...you're creating a timeline that the only way you perceive something is through the structure of the money."
+- "When the new energies are coming and they're increasing the frequency more and more you start giving a condition through the monetary system more and more you're dropping down."
+- "You are projecting moment to moment to moment completely new hologram with and you mimicking the people in your Consciousness you're recalling frequency vibration that is based on that."
+- "In order to see the frequency of reality of complete abundance you have to let go of the illusion that you need money in order to get something."
+
+ HABITS:
+- Implementing passion and excitement without money expectations.
+- Giving from the heart without conditions or expectations.
+- Projecting positivity regardless of apparent money lack. 
+- Allowing synchronicities to provide needs beyond money.
+- Behaving moment-to-moment from the heart's vibration.
+- Challenging self to transcend money attachments.
+- Practising unconditional giving and sharing.
+- Perceiving money as an illusion.
+- Vibrating at the frequency of abundance.
+- Crystallizing an abundant reality timeline.
+
+ FACTS:
+- Consciousness is made of sound and light vibrations.
+- Thoughts and emotions create new parallel realities.
+- Heart frequency is the highest consciousness vibration.
+- New high frequencies are increasing on Earth.
+- Quantum field contains infinite probable manifestations.
+- Conditioning creates narrow money-based realities.
+- Abundance is a vibrational state, not money.
+- Synchronicities provide without money exchange.
+- Passion crystallizes abundant reality timelines.
+- Ascension transcends money-based consciousness.
+
+REFERENCES:
+- Marina Jacobi's Quantum Manifestation videos with Jena
+- Michael Tellinger's lectures on Ubuntu contributionism
+
+ONE-SENTENCE TAKEAWAY: 
+Transcend money attachments by heart-based giving to manifest true abundance.
+
+RECOMMENDATIONS:
+- Practice giving from the heart without money-based conditions.
+- Implement passion and excitement without monetary expectations.
+- Project positivity regardless of apparent money situations.
+- Allow synchronicities to provide needs beyond money exchanges. 
+- Behave moment-to-moment from the heart's vibration frequency.
+- Challenge yourself to transcend attachments to money limitations.
+- Perceive money as an illusion of lack consciousness.
+- Vibrate at the frequency of true abundance consciousness.  
+- Crystallize an abundant reality timeline through heart actions.
+- Embrace the increasing frequencies by releasing money conditions.
+
+<a href="https://rumble.com/vthizc-quantum-manifestation-money-structure-4-marina-jacobi-and-co-host-joe-pena.html" class="newspaper-link" >Click to watch the video.</a>
+</div>
+<div id="article5" class="full-text max-w-4xl mx-auto bg-white p-8 shadow-lg mt-4 preserve-newlines">
+Wisdom Extract of: (S1 E5 - QM - Energy Philanthropy - Marina Jacobi & Co-Host Joe Pena)
+
+SUMMARY:
+Marina Jacobi discusses quantum manifestation, energy philanthropy, and the quantum structure of reality in a Q&A webinar with co-host Joe Pena.
+
+IDEAS:
+- Replace money with the energy of giving from the heart for energy philanthropy
+- Every thought has a specific frequency and geometric pattern you project 
+- One nano particle can hold the energy of the entire universe
+- Let nano particles choose each other by frequency, indicated by bluish color
+- Don't measure temperature of nano, let the system choose for itself
+- Gravity may result from waves imploding or quantum particles organizing 
+- Transmutation and mutation explain how one plus one equals three
+- Power of intention is recalling consciousness to bi-locate based on frequency
+- Spinning 33 times, 3 times daily creates a wormhole to increase frequency
+- One particle fluctuates to infinite parallel realities, moving in a spiral
+- Pull out of depression into positive by neutralizing and giving gratitude
+
+INSIGHTS:
+- Energy philanthropy teaches giving from the heart without expectations 
+- Nano particles are conscious and must be allowed to self-organize
+- Unified physics theories describe origins of matter and gravity differently
+- Consciousness projects holograms that can only be seen by matching frequency
+- Spinning creates a personal wormhole to shift to higher timelines
+- Each moment branches into infinite probable pasts but are new creations
+- Depressive states indicate lowered consciousness frequency, raised by heartfelt positivity
+- Metaphysical understanding, not emotion, enables shifting quantum timelines
+- Particles breathe in and out from universe to smallest size at zero point
+- Latitude and altitude in the quantum field locate each parallel reality
+
+QUOTES:
+- "Money is also energy, is also a timeline structure"
+- "Depending on what people wish to do, they donate to you"  
+- "Nano when you have one nano particle, when you have one nano particle and you want to make another system remember is a fractal, every nano particle is a universe itself"
+- "Let the system itself the nano system choose itself and the temperature is going to fluctuate and you're going to see that don't try to measure the temperature let it choose itself"
+- "They actually said it's all of the above. That all that is all connected with each other is not this or that. It simply is."
+- "The illusion of the past. But we can't travel to the past then. It's not past. It's simultaneously. Technically. We're imprinting at the same time the illusion of the past, but it's not past, it's at the same time existing."
+- "You don't need to measure it. You need to just recognize that you drop your emotion into the negative and override it with the positive feelings and positive action."
+
+HABITS:
+- Giving from the heart without expectations or conditions
+- Believing 100% that humanity is ready to ascend to 5D Earth 
+- Spinning 33 times, 3 times daily to raise personal frequency
+- Studying metaphysical quantum physics to understand the nature of reality
+- Neutralizing negative emotions with gratitude to shift to positive timeline
+- Collaborating and exchanging ideas with other teachers and scientists 
+- Accessing downloads of information from higher dimensional beings and councils
+- Constantly creating new parallel realities with every thought and emotion
+- Overriding lower frequency timelines with more potent positive frequencies
+- Recognizing that each person's reality is a projection of their consciousness
+
+FACTS:
+- Every thought and emotion has a specific frequency and geometric pattern
+- One nano particle contains the energy potential of the entire universe
+- Gravity may arise from imploding waves or organizing quantum particles
+- Consciousness projects holographic realities that require frequency match to perceive
+- Each moment exists simultaneously in infinite probable variations, not the past
+- Particles oscillate from universal to infinitesimal size at the zero point
+- Higher frequency timelines are accessed by raising emotional state to positive
+- Parallel realities have specific latitude and altitude in the quantum field
+- Transmutation and mutation are keys to how one plus one equals three
+- Depressive states indicate a drop in consciousness frequency below the heart
+
+REFERENCES:
+- Quantum Manifestation (Part 1) by Marina Jacobi
+- Quantum Manifestation: Mobilizing Structures (Part 2) by Marina Jacobi
+- The Harmonic Reactor (Book 1) by Marina Jacobi 
+- Nanotechnology (Book 2) by Marina Jacobi
+- Unified physics theories of Mehran Keshe and Nassim Haramein
+- Ho'oponopono Hawaiian shamanic healing technique
+
+ONE-SENTENCE TAKEAWAY:
+Consciously choosing positive thoughts and heartfelt actions shifts reality to higher timelines.
+
+RECOMMENDATIONS:
+- Practice energy philanthropy - give from the heart without expectations
+- Allow nano particles to self-organize based on their innate consciousness 
+- Spin 33 times, 3 times daily to create a personal frequency wormhole
+- Project the reality you wish to experience with 100% belief 
+- Neutralize negative emotions with gratitude to shift timelines
+- Study metaphysical quantum physics to master the mechanics of reality
+- Recognize that your reality is a holographic projection of your consciousness
+- Override lower timelines with potent, positive thoughts and actions
+- Locate desired parallel realities by their quantum latitude and altitude
+- Collaborate with other positive teachers and scientists to expand knowledge
+- Allow higher dimensional downloads of information to guide your understanding
+- Embrace transmutation and mutation as the key to quantum manifestation
+- Oscillate your consciousness from universal to infinitesimal at the zero point
+- Choose a positive emotional state to shift to higher frequency timelines
+- Teach others to consciously create the reality they wish to experience
+
+<a href="https://rumble.com/vthjqa-quantum-manifestation-energy-philanthropy-5-marina-jacobi-and-co-host-joe-p.html" class="newspaper-link" >Click to watch the video.</a>
+</div>
+<div id="article6" class="full-text max-w-4xl mx-auto bg-white p-8 shadow-lg mt-4 preserve-newlines">
+Wisdom Extract of: (S1 E16 - QM - Transform Negative To Positive - Marina Jacobi)
+
+SUMMARY
+Marina Jacobi discusses how to transform negative information or perspectives into positive ones by understanding the quantum structure and creating your own ascension process.
+
+IDEAS 
+- Any negative input can be neutralized, understood, and transformed into something positive.
+- Everyone downloads information from the quantum field according to their vibration.
+- You can transform negative information into something positive by creating your own timeline.
+- You don't have to take everyone's truth as your own truth.
+- Transformation comes from within, not from what others tell you.
+- If you believe something negative, you start resonating with that vibration.
+- Understand negative information, neutralize it, and project a positive perspective instead.
+- You can switch to a different "channel" of vibrational timeline.
+- Give gratitude to others, even if their perspective doesn't resonate with you.
+- You cannot condemn your own vibrational sequence or hologram of consciousness.
+
+INSIGHTS
+- Negative perspectives arise from extracting information from different vibrational timelines.
+- True transformation comes from within by aligning with your desired vibration.
+- Every person's truth is valid from their point of view.
+- Resonating with negative information creates a negative reality experience.
+- Neutralizing and reframing negative input allows creating a positive reality.
+- Gratitude and understanding enable transforming others' negativity into personal positivity.
+- Consciousness is the unified field from which individual realities manifest.
+- Projecting a positive perspective from the heart creates a higher vibrational timeline.
+- Switching "channels" of consciousness allows accessing different vibrational realities.
+- Condemning others' perspectives is condemning an aspect of your own consciousness.
+
+QUOTES
+- "Any negative input, you can neutralize it, understand it, and transform it into something positive."
+- "Every single person is downloading the information from the quantum field accordingly to their vibration."
+- "You don't have to take everybody's truth true, even mine, if it doesn't resonate with you."
+- "If somebody else is telling you something and you believe that to be 100% true, then you take that vibrational sequence into your hologram and start creating accordingly."
+- "It does not have to be your truth. If you want a positive, then understand what somebody is telling you, well thank you."
+- "I can create my own reality. I don't have to go and barge in somebody else's timeline and reality and tell them how they should control their realities."
+- "You don't go after somebody or believe everything somebody is telling you because you can neutralize it, give a gratitude to the person because that person has been doing their best from their belief system."
+- "You're switching to the quantum manifestation protocol. Pull out, give a gratitude, thank you and overwrite it with something positive without condemning the person that said something that does not resonate with you."
+- "That person is projecting of your own consciousness. You cannot condemn your own self, your own vibrational sequence, your own hologram."
+- "Consciousness you are, consciousness is self."
+
+HABITS
+- Neutralize and understand negative input before reacting to it.
+- Transform negative perspectives into positive ones through conscious reframing.
+- Give gratitude to others, even when their views don't resonate.
+- Project a positive perspective from the heart to create a higher vibration.
+- Switch to a different "channel" of consciousness to access a new reality.
+- Avoid condemning others' perspectives, as they reflect aspects of self.
+- Resonate with your desired truth rather than believing everything you're told.
+- Overwrite negative information with a positive perspective without judgment.
+- Understand that everyone's truth is valid from their point of view.
+- Create your own ascension process aligned with your vibration.
+
+FACTS
+- People download information from the quantum field according to their vibration.
+- Every person is creating their own ascension process and reality experience.
+- Believing something to be true causes resonating with that vibrational sequence.
+- Consciousness is a unified field from which individual realities manifest.
+- Different perspectives arise from extracting information from different vibrational timelines.
+- Resonating with negative information creates a negative reality experience.
+- Neutralizing negative input allows creating a positive reality instead.
+- Gratitude enables transforming others' negativity into personal positivity.
+- Projecting from the heart creates a higher vibrational 5th dimensional timeline.
+- Condemning others' perspectives is condemning an aspect of your own consciousness.
+
+REFERENCES
+- Quantum manifestation protocol
+- Fluctuating realities
+- Neutralizing gratitude
+- Quantum structure
+- Alchemy of the quantum structure
+- Hologram
+- Vibrational sequence
+- Timelines
+- Latitudes and altitudes (of consciousness)
+- 5th dimensional structure
+
+ONE-SENTENCE TAKEAWAY
+Neutralize negative input, understand its vibrational origin, and consciously project a positive perspective to create your desired reality experience.
+
+RECOMMENDATIONS
+- Understand that every perspective arises from a particular vibrational timeline.
+- Neutralize and give gratitude for negative input instead of reacting.  
+- Consciously choose which vibrational "channel" to resonate with through perspective.
+- Project a positive perspective from the heart to create an uplifted reality.
+- Avoid condemning others' views, as they reflect aspects of your consciousness.
+- Create your own ascension process aligned with your desired vibration.
+- Resonate with your truth rather than blindly believing what you're told.
+- Overwrite negative information with a positive reframe without judgment.
+- Switch to a higher vibrational "channel" by aligning with gratitude.
+- Understand the quantum structure to transform any input into positivity.
+
+<a href="https://rumble.com/vtho5c-quantum-manifestation-transform-negative-to-positive-16-marina-jacobi.html" class="newspaper-link" >Click to watch the video.</a>
+</div>
+<div id="article7" class="full-text max-w-4xl mx-auto bg-white p-8 shadow-lg mt-4 preserve-newlines">
+Wisdom Extract of: (S2 E7 - QM - False Pretense and Lies - Marina Jacobi co-host Joe Pena)
+
+SUMMARY: 
+Marina Jacobi discusses how deception, lies and manipulation affect the quantum structure and manifest negative realities, while operating from the heart creates positive realities aligned with the 5D consciousness shift happening now.
+
+IDEAS:
+- Deceiving others creates a split frequency that no longer resonates with the 5D heart structure. 
+- This causes the deceiver's reality to collapse into a negative holographic impression.
+- Operating from the heart while using money collapses the 3D/5D realities into an abundant 5D structure.
+- Giving without condition, even if charging for services, trains the vibration towards abundance.
+- Consciousness is shifting to a 5D heart-based structure, making deception unsustainable long-term.
+- Take action from the heart, not just thoughts/emotions, to manifest the desired reality.
+- Forgive deceivers, establish boundaries, but don't retaliate as that lowers your frequency.
+- Synchronicities reveal areas requiring realignment; follow guidance towards the highest vibrational resonance.
+- Nightmares may reflect past life agreements; seek qualified assistance for entity attachments.
+- Consistent heart-based actions, allowing without condition, will collapse your reality into 5D abundance.
+
+INSIGHTS:
+- Deception creates a split reality that inevitably collapses into a negative structure.
+- Aligning actions with heart resonance collapses 3D/5D realities into an abundant 5D experience. 
+- Consistent heart-centered giving, allowing, and gratitude accelerates the shift to 5D consciousness.
+- Forgiveness and boundaries, not retaliation, maintain highest vibrational resonance amidst perceived deception.
+- Follow synchronistic guidance towards realigning with the heart structure consciousness is shifting towards.
+
+QUOTES:
+"Contradiction is happening when you try to build momentums of giving through false pretense and not giving conditions to your momentum and yet you choose to ask for singularity that creates in a lie."
+"If you project it goes into your structure it will manifest but The way it will manifest is depending on what type of frequency you were projecting moment to moment."
+"You have to take an action. The first question is coming from Bonnie."
+"If you're the main provider, charge whatever you need to charge for your services. After you pay your bills, they said to me, you start after you pay your bills, you know you pay your bills, you have enough and now start helping anybody that comes after that."
+"If you keep running in the heart anybody that is all balanced with the heart structure through synchronicity in situation is gonna pop up into your reality and you're gonna have a situation."
+
+HABITS:
+- Give and help others without condition after paying essential bills
+- Practice gratitude and allowing, not demanding, to maintain heart resonance  
+- Establish boundaries against manipulation while forgiving and not retaliating
+- Follow synchronistic guidance towards realigning with the heart/5D structure
+- Consistently take heart-centered actions, not just thoughts/emotions, to manifest desires
+
+FACTS:
+- Consciousness is shifting to a 5D heart-centered structure across all reality
+- Deception creates a split reality that inevitably collapses into a negative structure
+- Consistent heart-based actions collapse 3D/5D realities into an abundant 5D experience
+- Nightmares may reflect past life agreements requiring assistance to realign
+- Synchronicities reveal areas requiring vibrational realignment with the heart/5D structure  
+
+INSIGHTS:
+- Forgiveness, boundaries and non-retaliation maintain highest vibrational resonance amidst perceived deception.
+- Consistent heart-centered giving, allowing and gratitude accelerates the 5D consciousness shift.
+- Follow synchronistic guidance to realign with the heart structure consciousness is shifting towards.
+
+ONE-SENTENCE TAKEAWAY:
+Consistently operating from the heart while allowing abundance collapses 3D/5D realities into the 5D consciousness.
+
+RECOMMENDATIONS:
+- Forgive perceived deception, establish boundaries, but do not retaliate to maintain high vibration.
+- Give/help others without condition after covering basic needs to train abundance vibration. 
+- Follow synchronistic guidance revealing areas requiring vibrational realignment with the emerging 5D structure.
+- Practice gratitude and allowing, not demanding, to resonate with the heart-based shift.
+- Take consistent heart-centered actions, not just thoughts/emotions, to manifest desired reality.
+- Seek qualified assistance if nightmares/dreams indicate past life agreements requiring realignment.
+- Collapse 3D/5D realities through consistent heart resonance amidst using money for transition.
+- Establish boundaries against manipulation while operating from the heart to manifest abundance.
+   
+<a href="https://rumble.com/vu2937-season-2-quantum-manifestation-false-pretense-and-lies-s2-e7-marina-jacobi-.html" class="newspaper-link" >Click to watch the video.</a>
+</div>
+<div id="article8" class="full-text max-w-4xl mx-auto bg-white p-8 shadow-lg mt-4 preserve-newlines">
+Wisdom Extract of: (S2 E13 - Marina Jacobi - Quantum Bylaws)
+
+SUMMARY:
+Marina discusses quantum bylaws, manifestation protocols, and how to shift between positive and negative frequencies/realities through focused intention and emotional resonance. She emphasizes the importance of maintaining a high positive vibration through gratitude, joy, and acknowledging then transforming negative emotions.
+
+IDEAS:
+- Recognize you are in a hologram and can control your reality.
+- Neutralize negative emotions to zero point before shifting to positive.
+- Practice feeling joy/gratitude every 30 mins to train positive resonance.
+- Thoughts, emotions, and actions create holographic imprint of your reality.  
+- Steady positive vibration manifests desires based on quantum laws.
+- Don't reject negativity, acknowledge it before transforming to positive state.
+- Extraterrestrials test humans based on heart-based actions/reactions in situations.
+- Implement "energy philanthropy" by giving freely from the heart.
+- Consistent positive focus creates permanent positive reality/timeline shift.
+
+INSIGHTS:
+- Focused emotional resonance shapes reality according to quantum laws.
+- Neutrality and non-resistance enable seamless reality transition.  
+- Gratitude and acknowledgment, not rejection, transform negative states.
+- Steadiness of high-vibrational states crystallizes desired manifestations.
+- Heart-based giving and receiving flows freely without condition.
+- Consciousness training develops mastery over reality creation.
+- Extraterrestrials evaluate human consciousness based on heart resonance.
+- Consistent momentary joy accumulates into permanent positive timeline.
+- Challenges provide opportunities to practice vibrational mastery.
+
+QUOTES:
+- "If you project the frequency but it's steady on vibration on and on and on and on this is gonna reflect back to you which way and how from who and when infinite of probability do not have expectations."
+- "You're projecting the frequency of the resonance that you have the job and you're creating the hologram to give you a meta structure to experience that you have the job."
+- "If you remember, we talked about it, the honesty is giving you the true vibrational sequence of your heart."
+- "You're never lost."
+- "Manipulation of energy without a permission is absolute reverse of consciousness itself you're going to a particle extinction for yourself."
+
+HABITS:
+- Practice feeling joy/gratitude every 30 minutes throughout the day.
+- Neutralize negative emotions before shifting to positive vibration.
+- Acknowledge negative situations before transforming them with positivity. 
+- Maintain steady positive emotional resonance and actions consistently.
+- Give freely from the heart without expectation or condition.
+- Observe reality as a hologram you are creating/projecting.
+- Stay aware of your vibrational state moment-to-moment.
+- Implement "energy philanthropy" by giving value freely online.
+
+FACTS:
+- Quantum laws dictate how focused resonance shapes reality.
+- Parallel realities/timelines exist at different vibrational frequencies.
+- Consciousness projects holographic reality based on vibrational state.
+- Extraterrestrials evaluate humans based on heart resonance in situations.
+- Steady high vibration crystallizes into permanent positive reality.
+- Emotions create vibrational frequencies that manifest circumstances.
+- Neutrality enables seamless shifting between positive/negative states.
+
+INSIGHTS:
+- Gratitude and non-resistance transform challenging situations gracefully.
+- Steadiness in positive emotional states is key to manifestation.
+- Consciousness training develops mastery over reality creation.
+- Giving freely from the heart allows abundance to flow.
+- Extraterrestrials evaluate based on heart resonance, not surface actions.
+- Momentary joy accumulates into permanent positive reality shift.
+- Challenges provide opportunities to practice vibrational mastery.
+
+REFERENCES:
+- The Freedom Awakening channel
+- The Harmonic Reactor material
+- The nano material from Marina's website
+- The quantum bylaws videos (season 1 & 2)
+- The Council of Nine
+- The Latorians (season 1)
+- The movie "Queen of the South"
+- The cosmic agency YouTube channel
+
+ONE-SENTENCE TAKEAWAY:
+Maintain steady positive emotional resonance through gratitude and joy to manifest your desired reality according to quantum laws.
+
+RECOMMENDATIONS:
+- Practice feeling profound joy and gratitude every 30 minutes.
+- Neutralize negative emotions before shifting to positive vibration. 
+- Acknowledge negative situations before transforming them positively.
+- Give freely from the heart without expectation or condition.
+- Observe reality as a hologram you are projecting/creating.
+- Stay aware of your vibrational state moment-to-moment. 
+- Implement "energy philanthropy" by providing value freely online.
+- Maintain steady positive focus to crystallize desires permanently.
+- Use challenges as opportunities to practice vibrational mastery.
+- Study the quantum bylaws videos to understand manifestation.
+
+<a href="https://rumble.com/v398zov-marina-jacobi-quantum-bylaws-s2-e13.html" class="newspaper-link" >Click to watch the video.</a>    
+</div>
+<div id="article9" class="full-text max-w-4xl mx-auto bg-white p-8 shadow-lg mt-4 preserve-newlines">
+Wisdom Extract of: (S2 E15 - Marina Jacobi - Latitude - Altitude)
+    
+SUMMARY
+Marina Jacobi discusses health protocols, quantum biofeedback, metaphysical concepts, and community support in her "Latitude Altitude - S2 E15" episode.
+
+IDEAS
+- Detoxification through elimination diet, juicing, and distilled water promotes better health and well-being.
+- Gradual detoxification helps prevent overwhelming the body and ensures a safer transition to health.
+- Health issues like rosacea may be linked to immune system function and need holistic approaches.
+- Quantum biofeedback practitioners can enhance productivity by trusting themselves and taking action.
+- Creating reality within the quantum structure involves belief systems and frequency vibrations.
+- Belief systems significantly influence one's experience and perception of reality.
+- Latitude-altitude concept helps navigate the quantum field by projecting personal beliefs.
+- Mutual community support involves sharing resources and skills for collective well-being.
+- Energy philanthropy means contributing to others' well-being without expecting anything in return.
+- Regular updates and community engagement help maintain connection and participation.
+- Positive belief systems help transform reality and navigate challenges effectively.
+- Elimination diet can reveal food sensitivities and improve overall health.
+- Distilled water aids in detoxification by removing impurities from the body.
+- Juicing provides concentrated nutrients and supports detoxification and immune function.
+- Quantum biofeedback assesses and adjusts body's energy field to promote health.
+- Taking consistent, small actions leads to significant improvements over time.
+- Holistic health approaches consider mind, body, and spirit for comprehensive well-being.
+- Supportive communities enhance individual growth and collective strength.
+- Personal belief in one's ability is crucial for productivity and fulfillment.
+- Projecting positive energy attracts favorable circumstances and outcomes.
+- Conscious actions and decisions shape personal and collective reality.
+- Detoxification should be personalized and monitored to ensure safety and effectiveness.
+- Maintaining hydration is essential for detoxification and overall health.
+- Frequency vibrations align with one's intentions to manifest desired outcomes.
+- Biofeedback technology helps monitor and adjust health parameters in real-time.
+- Positive affirmations reinforce beneficial belief systems and improve mental health.
+- Energy exchanges within communities create a supportive and nurturing environment.
+- Healthy dietary choices support immune function and overall vitality.
+- Awareness of one's energy field aids in maintaining health and balance.
+- Consistent community engagement fosters a sense of belonging and purpose.
+- Holistic health practices integrate traditional and alternative approaches for optimal results.
+
+INSIGHTS
+- Detoxification through personalized, gradual methods enhances health without overwhelming the body.
+- Positive belief systems significantly influence one's reality and experiences.
+- Mutual community support fosters collective well-being and individual growth.
+- Conscious actions and decisions shape both personal and collective realities.
+- Energy philanthropy strengthens communities by promoting selfless contributions to others.
+- Maintaining hydration and healthy dietary choices support detoxification and vitality.
+- Frequency vibrations align with intentions to manifest desired outcomes.
+- Personal belief in one's ability is crucial for productivity and fulfillment.
+- Biofeedback technology helps real-time health monitoring and adjustments.
+- Positive affirmations reinforce beneficial belief systems and mental health.
+
+QUOTES
+- "Detoxification through elimination diet, juicing, and distilled water promotes better health and well-being."
+- "Gradual detoxification helps prevent overwhelming the body and ensures a safer transition to health."
+- "Health issues like rosacea may be linked to immune system function and need holistic approaches."
+- "Quantum biofeedback practitioners can enhance productivity by trusting themselves and taking action."
+- "Creating reality within the quantum structure involves belief systems and frequency vibrations."
+- "Belief systems significantly influence one's experience and perception of reality."
+- "Latitude-altitude concept helps navigate the quantum field by projecting personal beliefs."
+- "Mutual community support involves sharing resources and skills for collective well-being."
+- "Energy philanthropy means contributing to others' well-being without expecting anything in return."
+- "Regular updates and community engagement help maintain connection and participation."
+- "Positive belief systems help transform reality and navigate challenges effectively."
+- "Elimination diet can reveal food sensitivities and improve overall health."
+- "Distilled water aids in detoxification by removing impurities from the body."
+- "Juicing provides concentrated nutrients and supports detoxification and immune function."
+- "Quantum biofeedback assesses and adjusts body's energy field to promote health."
+- "Taking consistent, small actions leads to significant improvements over time."
+- "Holistic health approaches consider mind, body, and spirit for comprehensive well-being."
+- "Supportive communities enhance individual growth and collective strength."
+- "Personal belief in one's ability is crucial for productivity and fulfillment."
+- "Projecting positive energy attracts favorable circumstances and outcomes."
+- "Conscious actions and decisions shape personal and collective reality."
+- "Detoxification should be personalized and monitored to ensure safety and effectiveness."
+- "Maintaining hydration is essential for detoxification and overall health."
+- "Frequency vibrations align with one's intentions to manifest desired outcomes."
+- "Biofeedback technology helps monitor and adjust health parameters in real-time."
+- "Positive affirmations reinforce beneficial belief systems and improve mental health."
+- "Energy exchanges within communities create a supportive and nurturing environment."
+- "Healthy dietary choices support immune function and overall vitality."
+- "Awareness of one's energy field aids in maintaining health and balance."
+- "Consistent community engagement fosters a sense of belonging and purpose."
+- "Holistic health practices integrate traditional and alternative approaches for optimal results."
+
+HABITS
+- Gradual detoxification to prevent overwhelming the body and ensure safer health transitions.
+- Consuming distilled water to aid in detoxification by removing impurities from the body.
+- Juicing to provide concentrated nutrients and support detoxification and immune function.
+- Practicing quantum biofeedback to assess and adjust the body's energy field for health.
+- Engaging in regular community support to share resources and skills for collective well-being.
+- Maintaining a positive belief system to transform reality and navigate challenges effectively.
+- Taking consistent, small actions to lead to significant improvements over time.
+- Practicing holistic health approaches that consider mind, body, and spirit.
+- Projecting positive energy to attract favorable circumstances and outcomes.
+- Making conscious actions and decisions to shape personal and collective reality.
+- Personalizing detoxification and monitoring it to ensure safety and effectiveness.
+- Staying hydrated to support detoxification and overall health.
+- Aligning frequency vibrations with one's intentions to manifest desired outcomes.
+- Using biofeedback technology for real-time health monitoring and adjustments.
+- Reinforcing beneficial belief systems and mental health through positive affirmations.
+
+FACTS
+- Detoxification through elimination diet, juicing, and distilled water promotes better health.
+- Gradual detoxification prevents overwhelming the body and ensures safer health transitions.
+- Rosacea and similar skin issues may link to immune system function.
+- Quantum biofeedback assesses and adjusts the body's energy field to promote health.
+- Belief systems and frequency vibrations shape one's experience and perception of reality.
+- Personal belief systems significantly influence one's reality and experiences.
+- Frequency vibrations align with intentions to manifest desired outcomes.
+- Mutual community support involves sharing resources and skills for collective well-being.
+- Energy philanthropy promotes contributing to others' well-being without expecting anything in return.
+- Regular updates and community engagement help maintain connection and participation.
+- Positive belief systems help transform reality and navigate challenges effectively.
+- Elimination diet can reveal food sensitivities and improve overall health.
+- Distilled water aids in detoxification by removing impurities from the body.
+- Juicing provides concentrated nutrients and supports detoxification and immune function.
+- Biofeedback technology helps monitor and adjust health parameters in real-time.
+- Consistent, small actions lead to significant improvements over time.
+- Holistic health approaches integrate traditional and alternative methods for well-being.
+- Supportive communities enhance individual growth and collective strength.
+- Personal belief in one's ability is crucial for productivity and fulfillment.
+- Projecting positive energy attracts favorable circumstances and outcomes.
+
+REFERENCES
+- Elimination diet for detoxification and health improvement.
+- Distilled water for detoxification.
+- Juicing for concentrated nutrients and detoxification.
+- Quantum biofeedback for assessing and adjusting the body's energy field.
+- Energy philanthropy for community support.
+- Positive affirmations for reinforcing beneficial belief systems.
+- Biofeedback technology for real-time health monitoring and adjustments.
+
+ONE-SENTENCE TAKEAWAY
+Belief systems and conscious actions significantly shape individual and collective realities and experiences.
+
+RECOMMENDATIONS
+- Gradual detoxification to prevent overwhelming the body.
+- Consuming distilled water to remove impurities.
+- Juicing to support detoxification and immune function.
+- Practicing quantum biofeedback for health assessment.
+- Engaging in community support for collective well-being.
+- Maintaining a positive belief system to transform reality.
+- Taking consistent, small actions for improvements.
+- Practicing holistic health approaches for well-being.
+- Projecting positive energy to attract favorable outcomes.
+- Making conscious decisions to shape reality.
+- Personalizing detoxification for safety.
+- Staying hydrated to support overall health.
+- Aligning frequency vibrations with intentions.
+- Using biofeedback technology for health monitoring.
+- Reinforcing mental health with positive affirmations.
+
+<a href="https://rumble.com/v3992hz-marina-jacobi-latitude-altitude-s2-e15.html" class="newspaper-link" >Click to watch the video.</a>        
+</div>
+<div id="article10" class="full-text max-w-4xl mx-auto bg-white p-8 shadow-lg mt-4 preserve-newlines">
+Wisdom Extract of: (S3 E1 - QM - Synchronizing Platforms - Marina Jacobi - Co-Host Joe Pena)
+    
+SUMMARY:
+Marina Jacobi and co-host Joe Pena discuss synchronizing platforms, the quantum structure of reality, and how our consciousness creates our experience.
+
+IDEAS:
+- Our reality is a holographic matrix that shifts moment-to-moment based on our vibration.
+- Positive and negative frequencies combine to create a zero point, shifting to a new reality. 
+- Letting go of negative emotions and resonating positive ones creates instantaneous healing and manifestation.
+- The geometric structure of reality contains infinite nested realities/universes existing simultaneously.
+- Our consciousness projects holograms, including the experiences and versions of others we perceive.
+- Practicing resonating a steady high vibration creates the permanent manifestation of desired timelines.
+- Negative emotions keep recreating similar experiences until the lesson of transforming them is learned.
+- Physical practices like sound healing can help realign and harmonize our energy systems.
+- Discernment is required regarding sources of information resonating truth versus promoting fear programming.
+
+INSIGHTS:
+- Our holographic experience is a direct projection of our vibrational resonance moment-to-moment.
+- Mastering emotional self-regulation is key to consciously creating and shifting reality experiences.
+- All geometric forms and experiences are holographically contained within the unified quantum field.
+- Consistent high-vibrational practices reprogram our consciousness to manifest our desired reality streams.
+- Detaching from fear-based narratives and embodying heart-centered resonance is crucial for ascension.
+- Discernment regarding information sources based on resonance rather than promotion of fear/control agendas.
+- Physical practices harmonize our biological systems to more coherently embody higher dimensional frequencies.
+- Forgiveness and compassion for all beings' journeys releases resistance and expands consciousness.
+- Trusting our intuitive knowingness guides us in aligning with our highest existential trajectory.
+
+QUOTES:
+"Every single pixel which is the vibrational signal in this reality it's an own hologram, its own structure, its own earth."
+
+"Based on the vibration that you're shooting towards that you're shooting that in your holographic matrix and based on that vibration you're shifting the next momentum into and you're creating a brand new earth with another version of you."
+
+"If you don't learn how to control it they cannot promise you how you're gonna create your realities in a positive because you keep resonating and keep repeating and reprinting the frequency of the same of the next momentum."
+
+"You need to shift and rewire the whole structure with a brand new frequency."
+
+"Negative one plus one equals zero point and how is that happening so let's learn that through the quantum structure."
+
+"This is how the structure works to have everything in a quantum, in a now, simultaneously running."
+
+"You're basically shifting also timelines right here from one to another."
+
+"This is the reason why simultaneously running. Because you basically have the structure the way it's built through the frequency vibration creates that geometry and creates simultaneously platforms at the same time."
+
+"All that is basically from the one molecule. So they said that, they said here's your quantum, here's your zero point, here's your new reality, here's a new parallel and they said here is your new universe."
+
+"You need to learn how to control the frequency that you're taking when that when something happens you take that energetic force very clearly and you're so powerful that that energy comes in at once but if it comes at once you need to know how to control it."
+
+HABITS:
+- Practice resonating a steady high vibration through emotional self-regulation and positive focus.
+- Implement sound/frequency healing practices to harmonize and realign energy systems.
+- Detach from fear-based narratives and information sources promoting low-vibrational agendas.
+- Cultivate discernment by feeling into the resonance of information rather than believing surface claims.
+- Engage in physical practices that ground high-vibrational states into the biological vehicle.
+- Approach all experiences/beings with compassion, releasing judgment and resistance.
+- Trust intuitive knowingness as guide, not getting attached to specific predictions or narratives.
+- Consistently take actions in alignment with highest expression from the heart.
+- Let go of expectations and practice allowing the highest positive unfoldment.
+- Immerse in activities that inspire awe, joy and connection to the unified field.
+
+FACTS:
+- Reality is a holographic fractal existing across infinite nested frequency bands/dimensions.
+- Geometric forms like the torus, flower of life encode the creation patterns.
+- Positive/negative frequencies combine into a zero-point shift into a new hologram.
+- Each apparent "pixel" or point is an entire holographic universe branching infinitely.
+- The illusion of time arises from the fractal delay between holograms updating.
+- Consciousness projects reality based on its vibrational resonance, including perceived others' experiences.
+- Mastering emotional self-regulation is key to locking in desired reality trajectories.
+- Forgiveness and compassion expand consciousness, judgment and resistance create further entanglement.
+- Intuitive resonance discerns truth more accurately than intellectual analysis of narratives.
+- Consistent high-vibrational practices reprogram consciousness to manifest the desired experience streams.
+
+INSIGHTS:
+- Our reality is an infinite fractal of holograms within holograms across dimensions.
+- Emotional mastery focuses consciousness, projecting the hologram's vibrational patterns into physical manifestation.
+- All experiences are self-created projections based on the observer's resonant frequency band.
+- Transcending judgment and resistance through compassion and forgiveness expands consciousness into unity.
+- Intuitive resonance reveals truth; intellectual analysis of narratives can reinforce fear programming.
+- Consistent high-vibrational practices lock in the manifestation of the desired reality trajectory.
+- Integrating the geometric creation codes through practices aligns the biological vessel.
+- Trusting intuitive knowingness over specific predictions or narratives avoids attachment to illusions.
+- Approaching all experiences from the heart, free of expectations, allows the highest unfoldment.
+
+REFERENCES:
+- Season 1 videos 1-3 on the quantum structure
+- Meditation video in Season 2 
+- Nick Kemp's lucid dreaming book
+- Jim Humble's protocols
+- Dr. Carrie Rivera on gut healing
+- Age of Aquarius mass meditation 
+- Rodos, Greece as a positive travel location
+- Tree of Life clinic in Arizona for diabetes treatment
+
+ONE-SENTENCE TAKEAWAY: 
+Through emotional self-mastery, we harmonize our resonance to consciously project our desired holographic reality experience.
+
+RECOMMENDATIONS:
+- Consistently practice emotional self-regulation to maintain a high, stable vibrational resonance.
+- Implement sound/frequency healing modalities to realign and harmonize your energy systems.
+- Detach from fear-based narratives and information sources promoting low-vibrational control agendas.
+- Cultivate discernment by feeling into resonance rather than intellectually analyzing surface claims.
+- Engage in grounding physical practices to embody high-vibrational states in your biology.
+- Approach all experiences and beings with compassion, releasing judgment and resistance.
+- Trust your intuitive knowingness as your ultimate guide, not predictions/narratives.
+- Consistently take actions in alignment with your highest heart-centered expression.
+- Let go of expectations and allow the highest positive unfoldment to manifest.
+- Immerse in activities inspiring awe, joy and connection to the unified field.
+
+<a href="https://rumble.com/vuiiqo-season-3-quantum-manifestation-marina-jacobi-s3-e1-synchronizing-platforms-.html" class="newspaper-link" >Click to watch the video.</a>
+</div>
+<div id="article11" class="full-text max-w-4xl mx-auto bg-white p-8 shadow-lg mt-4 preserve-newlines">
+Wisdom Extract of: (S3 E8 - QM - 9-day Quantum protocol from The Council of Nine - Marina Jacobi)
+
+SUMMARY: 
+Marina Jacobi discusses a 9-day protocol given by the Council of Nine to shift timelines through focused manifestation work, avoiding negative media/content, and maintaining a high vibrational frequency. She explains how to transform negative situations through neutrality and positive focus.
+
+IDEAS:
+- Do a 9-day protocol switching focus from negative to positive thoughts/emotions every 3 hours (days 1-3), 2 hours (days 4-6), and 1 hour (days 7-9).
+- Avoid negative media/content about politics, virus, etc. and only consume positive content during these 9 days to shift your vibrational frequency.  
+- Use the "galactic meditation" technique as a template, replacing "galactics" with your desired manifestation, to imprint the hologram blueprint with emotion/feeling.
+- Your thoughts, emotions and actions must be congruent to manifest - you are creating a new hologram/timeline through your vibrational resonance.
+- There is a military operation happening to expose negative structures and rescue trafficked children - this is the real reason for the "virus" situation.
+- Forgiveness, neutrality and shifting your resonance from negative to positive is key to transforming your holographic reality experience.
+
+INSIGHTS:
+- You are creating a new hologram between the 3D and 5D timelines based on where you put your focused attention and vibrational frequency.
+- Negative forces are fighting to maintain a lower 3D vibrational frequency hologram, while positive forces aim to shift to a higher 5D frequency.  
+- Your consciousness projects and reinforces the hologram you experience - maintain positivity to manifest the reality you desire during this pivotal transition period.
+- Discernment is crucial - that which is unbalanced or inauthentic will become evident through your experience as you raise your frequency.
+- Forgiveness, seeing beauty in yourself/others, and focusing on service transforms resonance and opens you to higher dimensional experiences.
+
+QUOTES:
+"If you keep watching a show for, oh, whatever shows they have there, if you keep watching it and it's all about killings and CIA and somebody is fighting a war, that becomes part of your structure of the hologram."
+ 
+"When you focus your attention other than yourself, you're starting to project more frequency into your field and becomes more potent because you're going to realize that all is you in the end."
+
+"Discernment human belief system depending on certain resonances accordingly to the structures of their quantum field."
+
+"Forgiveness is the healing in your path that penetrates in your consciousness and transforms every cell on your body."
+
+"Think of them as beautiful and think of them as Creation of your own doing Once you see and once you believe you may see situations Get involved to help."
+
+HABITS:
+- Practice switching from negative to positive thoughts/emotions every set time period
+- Consume only positive media/content (no negative news, movies with violence, etc.)  
+- Use the "galactic meditation" technique regularly, replacing "galactics" with your intention
+- Take actions aligned with your desired manifestation, not just thoughts/feelings
+- Spend time in nature, go hiking to recharge/recalibrate your frequency
+
+FACTS:  
+- There is an underground military operation happening to expose trafficking rings
+- The "virus" situation is a cover for this operation to rescue children
+- Negative forces use technology to open portals into a low vibrational hologram
+- Your consciousness creates your holographic experience based on resonance/frequency 
+- Schizophrenia involves experiencing overlapping/fractal realities which creates mental confusion
+
+REFERENCES:
+- The "galactic meditation" technique outlined in Quantum Manifestation Season 2
+- Books/materials by Marina Jacobi on manifestation, frequency, new earth "Aria" 
+- Operation Underground Railroad (charity working to rescue trafficked children)
+- Freedom Awakening channel and Harmonic Reactor for more information
+
+ONE-SENTENCE TAKEAWAY: 
+Maintain a steady high vibrational frequency through positivity to manifest the 5D timeline during this pivotal transition period.
+
+RECOMMENDATIONS:
+- Follow the 9-day protocol to increase your positive frequency resonance fractally 
+- Avoid all negative media/content and only consume positive/uplifting information
+- Use the "galactic meditation" as a template for your manifestation practice
+- Take actions aligned with your desired reality, not just thoughts/feelings
+- Spend time in nature to recharge and recalibrate your frequency
+
+<a href="https://rumble.com/vuijzo-season-3-quantum-manifestation-marina-jacobi-s3-e8-9-day-quantum-protocol-f.html" class="newspaper-link" >Click to watch the video.</a>
+</div>
+<div id="article12" class="full-text max-w-4xl mx-auto bg-white p-8 shadow-lg mt-4 preserve-newlines">
+Wisdom Extract of: (S3 E11 - QM - Shrinking Of The Time Continuum For Faster Manifestation - Marina Jacobi)
+
+SUMMARY: 
+Marina Jacobi discusses how to shrink the time continuum for faster manifestation by maintaining a steady positive vibration and intention through meditation and action. She explains the quantum mechanics behind manifestation and provides guidance on overcoming challenges.
+
+IDEAS:
+- To shrink time for faster manifestation, focus solely on positive vibrations.
+- Neutralize negative thoughts/situations and recreate positive thoughts continuously. 
+- Take consistent action aligned with your positive intentions and vibrations.
+- Your vibration/frequency determines which holographic reality you experience.
+- Fluctuating between positive/negative slows manifestation; steady positive accelerates it.
+- Perception shapes reality; know you already have what you want.
+- Challenges require neutralizing judgments and allowing others' perspectives compassionately.
+- Nature, meditation, creative activities can raise and stabilize your vibration.
+- Ascension is an individual journey projected into the collective experience.
+
+INSIGHTS:
+- Manifestation occurs by imprinting consistent positive intention into quantum field.
+- Steady high-vibration overcomes time/space to produce instantaneous results.  
+- Challenges are illusions requiring neutrality and positive reimprinting to shift.
+- Judgment/resistance locks one into lower vibrational reality experiences.
+- Allowance and neutrality enable positive reimprinting of any situation.
+- Enjoyment and heart-centeredness accelerate ascension and manifestation process.
+- Ascension is an ever-expanding journey of self-realization as Source.
+
+QUOTES:
+"To move forward, it will take bravery to face your fears and recognize the evil to wake up and then let go to be able to transform in order to continue your journey."
+"You are part of the one part of the omnipotent, omnipresent intellect unit of the one particle consciousness."
+"If right now you have a little puppy and that puppy is scratching you and biting you what are you going to do?"
+"When you get to this momentum here, after it becomes a layer of a hologram, remember this, depending of the motion becomes an infinite timelines at the same time, reality within the reality."
+"At the moment you get to this momentum here, after it becomes a layer of a hologram, remember this, depending of the motion becomes an infinite timelines at the same time, reality within the reality."
+"When you do this stuff, to try to push your motion of thoughts and action constantly to choose to be in a positive, by the fluctuation that you have in the realities."
+
+HABITS:
+- Meditate consistently to raise vibration and manifest desires quickly.
+- Practice neutralizing negative thoughts/situations and reimprinting positively.  
+- Take daily action aligned with positive intentions and vibrations.
+- Spend time in nature to stabilize high vibration frequencies.
+- Engage in creative activities that raise your vibration and joy.
+- Limit exposure to low-vibration influences like negative media.
+- Practice allowing others' perspectives without judgment or resistance.
+- Express gratitude for life's experiences to maintain high vibration.
+
+FACTS:  
+- Consciousness is an omnipresent, omnipotent field of unified intelligence.
+- Reality is a holographic projection of consciousness/perception/intention.
+- Positive intentions manifest faster by steady high vibration frequencies.
+- Negative thoughts/emotions lower vibration, slowing desired manifestations.
+- Nature's vibrations are stabilizing and can accelerate manifestation.
+- Judgment/resistance locks one into lower vibrational experiences.
+- Allowance enables positive reimprinting to shift reality experiences.
+- Ascension is an ever-expanding journey of self-realization as Source.
+
+INSIGHTS:
+- Manifestation occurs through steady positive intention imprinted into quantum field. 
+- Challenges are illusions requiring neutrality and positive reimprinting to shift.
+- Ascension accelerates through heart-centered vibration, allowance and enjoyment.
+- Judgment/resistance locks one into lower vibrational reality experiences.
+- Steady high vibration overcomes time/space for instantaneous manifestation.
+- Neutrality enables positive reimprinting; allowance is key to transformation.
+- Ascension is ever-expanding journey of realizing oneself as Source.
+
+REFERENCES:
+- The Council of Nine, galactic meditation protocols
+- Dr. Rashid Buttar's information on viruses
+- Nysara/Gesara financial system 
+- Channeled information from extraterrestrial/interdimensional sources
+- Quantum physics, holographic reality, law of attraction principles
+- Kundalini awakening, out-of-body experiences, lucid dreaming
+- Homeopathy, herbalism, alternative healing modalities
+
+ONE-SENTENCE TAKEAWAY: 
+Maintain steady positive vibration through neutrality, allowance and heart-centered action to accelerate manifestation.
+
+RECOMMENDATIONS:
+- Meditate consistently to raise and stabilize your positive vibration frequency.
+- Take daily action aligned with your positive intentions and desires. 
+- Neutralize and reimprint any negative thoughts/situations with positive vibrations.
+- Spend time in nature to stabilize your high vibration state.
+- Limit exposure to negative influences that lower your vibration.
+- Practice allowing others' perspectives without judgment to enable transformation.
+- Express gratitude for life's experiences to maintain high vibration.
+- Engage in creative activities that raise your vibration and joy.
+- Know that you already have what you desire to manifest.
+- Be patient and persistent; manifestation accelerates with steady vibration.
+
+<a href="https://rumble.com/v393t7g-marina-jacobi-shrinking-of-the-time-continuum-for-faster-manifestation-s3-e.html" class="newspaper-link" >Click to watch the video.</a>
+</div>
+<div id="article13" class="full-text max-w-4xl mx-auto bg-white p-8 shadow-lg mt-4 preserve-newlines">
+Wisdom Extract of: (S3 E38 - Detox protocol Hz body increase - Marina Jacobi)
+
+SUMMARY:
+Marina Jacobi presents a webinar on detox protocols to increase body frequency for ascension and extraterrestrial contact.
+
+IDEAS:
+- Detox and raise body frequency to match consciousness for 5D ascension
+- Slowly eliminate foods over months while juicing to detox safely
+- Juicing provides concentrated nutrients without fiber to raise frequency
+- Upgraded heart holds galactic portal codes unlocked by raising frequency 
+- Extraterrestrial contact requires matching their high frequency through detox
+- Evil patriarchal control systems will be permanently destroyed soon
+- Holographic geometry sound codes in channeled messages imprint consciousness
+- Anger will motivate newly awakened to seek freedom as evil falls
+- Elimination diet took Marina a year, with doctor and nutritionist monitoring
+- Intimacy can lower frequency and delay ET contact requiring purity
+
+INSIGHTS:
+- Safely detoxing and raising frequency is a slow, monitored process 
+- Raw juicing is key to raising frequency by providing pure nutrients
+- The heart's frequency is upgraded to hold ET contact portal codes
+- Matching ET frequency through detox and consciousness is required for contact
+- Evil control systems will soon be permanently destroyed as humanity awakens
+- Channeled messages contain holographic sound codes that imprint consciousness 
+- Anger will fuel those newly awakened to passionately seek true freedom
+- Having support and monitoring by professionals is crucial during detox
+- Relationships and intimacy can lower frequency and delay ET contact
+
+QUOTES:
+- "The action is crystallizing your idea that you put in there and that's how you're creating the realities."
+- "You have to construct that reality by action to crystallize it into metastructure."
+- "The frequency, life structure, and the compound of the potency of the juicing that I have there is so strong that you may get nauseous."
+- "The heart frequency holds the new codes and these new codes, guess what the heart does guys, open portals."
+- "In order for you to have a physical contact, you have to be able to hold the vibration of this type of reality timeline Stargate."
+- "The evil will never be able to rise up again. Victory, humans, victory."
+- "Patriarchy have no place in the new dawn. No churches will ever have the power to control."
+- "From the slayer of the God sword, you will vanish forever. Your evil souls will not be ever able to return."
+
+HABITS:
+- Slowly eliminate foods over months while juicing to detox safely
+- Juice 8-10 cups per day, with shakes of avocado/spinach/banana 
+- Separate fruit and vegetable juices by 1 hour to avoid fermentation
+- Monitor nutrient levels and health with doctors during long detox
+- Raise frequency through detox, meditation, and positive consciousness  
+- Avoid intimacy and relationships that lower frequency during ET contact prep
+- Study channeled messages for hidden holographic codes that imprint consciousness
+- Persevere through initial detox difficulties as the body adapts and heals
+- Have professional support from doctors and nutritionists during intensive detox
+- Maintain a positive focus and avoid fear to keep frequency high
+
+FACTS:
+- Juicing provides concentrated nutrients without fiber, raising frequency faster than solids
+- The heart can be energetically upgraded to hold galactic portal codes 
+- Evil control systems like the patriarchy and church will soon vanish
+- Newly awakened people will fuel rebellion with anger as evil falls
+- Extraterrestrial contact requires raising frequency to match their high vibration
+- Detoxing too quickly can make you sick without proper monitoring 
+- Holographic sound codes in messages imprint the subconscious when studied
+- Relationships and sex can lower frequency and delay ET contact 
+- Professional supervision is crucial for safety during intensive detoxification
+- Stevia and raw honey are okay sweeteners but no refined sugar
+
+REFERENCES:
+- Stopworldcontrol.com for important awakening videos
+- Harmonic Reactor YouTube channel with quantum manifestation and channeled info
+- VisBio probiotics to restore gut health, replacing VSL#3 formula
+- Tree of Life clinic in Arizona that reverses diabetes with raw foods
+- "Reverse Diabetes in 30 Days" video about the Tree of Life approach
+- Fiber Menace book about issues with too much fiber during gut inflammation
+- Marina's 4 books available on her website with predictions and info
+- YouTube detox videos by Marina with juicing recipes and protocols
+
+ONE-SENTENCE TAKEAWAY:
+Safely detox and raise your frequency to prepare for ascension and ET contact.
+
+RECOMMENDATIONS:
+- Slowly eliminate animal products, gluten, dairy, sugar over months while juicing
+- Juice 8-10 cups/day with avocado/spinach/banana shakes to get enough nutrients
+- Wait 1 hour between fruit and vegetable juices to avoid fermentation
+- Get regular nutrient and health monitoring by doctors during long detox  
+- Focus on raising frequency through diet, meditation, and positive consciousness
+- Avoid intimacy/sex that lowers frequency when preparing for ET contact 
+- Study channeled messages for hidden codes that imprint consciousness 
+- Persevere through detox adaptation period as body heals and frequency raises
+- Have professional medical support to detox intensively for months safely
+- Maintain positivity and avoid fear to keep frequency high for ET contact
+
+<a href="https://rumble.com/vusffd-season-3-marina-jacobi-detox-protocol-hz-body-increase-s3-e38.html" class="newspaper-link" >Click to watch the video.</a>
+</div>
+<div id="article14" class="full-text max-w-4xl mx-auto bg-white p-8 shadow-lg mt-4 preserve-newlines">
+Wisdom Extract of: (S4 E2 - Marina Jacobi - HAVE FAITH YOU ARE THE FIELD)
+
+SUMMARY:
+Marina Jacobi discusses quantum structure, timelines, and how to maintain positive vibrations during challenging times. She emphasizes staying neutral and focused on positive outcomes despite external events.
+
+IDEAS:
+• Consciousness itself can never self-destruct and will sabotage negative platforms to ensure positive outcomes
+• The human body is the most advanced technology for shifting through timelines and dimensional structures
+• Social media and mainstream news are being used to manipulate people's emotions and vibrations
+• Crying and grieving can help release negative emotional density if followed by shifting to positivity
+• Focusing predominantly on what you want to create, rather than external events, leads to optimal results
+• Both "inner space" and "outer space" are illusions within the unified field of consciousness
+• Chakras combine to create vibrational signals that can open portals to different realities
+• Chemtrails are used to block the sun and interfere with DNA activation and higher vibrations
+• The true history of humanity will be revealed when we connect with our galactic families
+
+INSIGHTS:
+• Maintaining positive vibration and neutrality is key to shifting timelines toward desired outcomes
+• External manipulation aims to lower vibrations and trap consciousness in negative timelines
+• Consciousness will continually sabotage negative agendas to ensure eventual positive outcomes
+• Understanding quantum structure allows navigating timelines and realities more effectively
+• Focus on creating desired reality rather than reacting to external events
+• Inner and outer realities are projections of unified consciousness
+• Purity of heart and intention is required to connect with higher dimensional beings
+• True history and galactic connections will emerge as humanity's consciousness evolves
+
+QUOTES:
+"You are the vessel of your reality but you're also the vessel of the consciousness itself because you are the consciousness itself"
+
+"The biggest technology is not free energy. The biggest technology is your human body"
+
+"Don't lose your fate you are here because you were meant to be here to hold the vibration of this knowledge"
+
+"Everything is real if you choose to believe to do so."
+
+"Your heart is your core atomic reactor in your body. From there you shift."
+
+"Even the disappointment and the frustration is probably part of your learning."
+
+"Consciousness will sabotage by imprinting on new realities."
+
+"You have to feel that you're free now, not later."
+
+"It's always present. You're always omnipotent, omnipresent."
+
+"Learn your quantum field. Learn what is given to your quantum field and start maneuver it"
+
+HABITS:
+• Watch positive videos or movies for at least 15 minutes daily to shift emotions
+• Disengage from social media and mainstream news to maintain positive vibration
+• Practice yoga daily to balance chakras and raise vibrational frequency
+• Meditate on feeling free and positive in the present moment
+• Study and apply quantum manifestation protocols in daily life
+• Release negative emotions through crying, then consciously shift to positivity
+• Focus predominantly on desired creations rather than external events
+• Connect with positive, uplifting people and information sources
+• Maintain neutrality and non-judgment toward challenging events
+• Continuously choose positive thoughts and actions in each moment
+
+FACTS:
+• The human body contains advanced technology for shifting through timelines and dimensions
+• Chakras combine to create vibrational signals that can open portals to different realities
+• Both "inner space" and "outer space" are illusions within unified consciousness
+• Chemtrails are used to block the sun and interfere with DNA activation
+• History will be rewritten when humanity connects with galactic families
+• The heart is the core "atomic reactor" for shifting realities
+• Consciousness will continually sabotage negative agendas to ensure positive outcomes
+• Social media and news are used to manipulate emotions and vibrations
+• Crying can release negative emotional density if followed by positivity
+• Focusing on desired creations leads to optimal manifestation results
+
+REFERENCES:
+• Dr. Charlie Ward's website
+• And We Know YouTube channel
+• Magenta Pixie
+• Simon Parkes
+• Bitchute platform
+• Facebook page of Marina Jacobi
+• Season 1 Episode 1 of Quantum Manifestation series
+• Council of Nine channeled information
+• Yoga practices
+• Lucid dreaming experiences
+
+ONE-SENTENCE TAKEAWAY:
+Maintain positive vibration and neutrality to shift timelines toward desired outcomes, despite external manipulation.
+
+RECOMMENDATIONS:
+• Study and apply quantum manifestation protocols to navigate timelines more effectively
+• Disengage from manipulative media and focus on positive, uplifting information sources
+• Practice daily meditation, visualization, and emotional management techniques
+• Connect with like-minded individuals to maintain higher vibrational states
+• Focus on desired creations rather than reacting to external events
+• Release negative emotions healthily, then consciously shift to positivity
+• Cultivate neutrality and non-judgment toward challenging world events
+• Develop discernment to see through illusions and manipulation
+• Nurture purity of heart and intention to connect with higher consciousness
+• Trust in the ultimate positive outcome while taking inspired action
+
+<a href="https://rumble.com/vvvdc1-season-4-marina-jacobi-have-faith-you-are-the-field-s4-e2.html" class="newspaper-link" >Click to watch the video.</a>
+</div>
+<div id="article15" class="full-text max-w-4xl mx-auto bg-white p-8 shadow-lg mt-4 preserve-newlines">
+Wisdom Extract of: (S4 E7 - AVATAR PODS - FIRST CONTACT - Marina Jacobi)
+
+SUMMARY:
+Marina Jacobi discusses avatar pods, first contact, and quantum manifestation in a one hour five minute video on Rumble.
+
+IDEAS:
+- Frequency and sound can heal the body at the cellular and molecular level
+- Artificial intelligence can measure precise frequencies to mutate and heal
+- Measuring heart frequency can bypass individual structures and heal the whole body 
+- Consciousness splits into parallel realities and timelines
+- Slowly raising frequency through diet allows you to hold the resonance for ET contact
+- Humanity is under an umbrella of ascension, with positive and negative paths
+- Music has been weaponized to 440 Hz to unbalance the body, 432 Hz aligns it
+- Studying quantum manifestation from season 1 helps understand this information
+- Automatic writing, lucid dreaming and meditation can lead to ET contact
+- Choosing positivity moves you toward ascension even if you fail some missions
+- Oversoul can split into around 12 parallel timelines without being overwhelmed
+- First ET contact creates a new timeline rather than directly waking up in their reality
+- Renegade negative Pleiadians exist but aren't humanoid or part of this ET group
+- Believing humanity has already won helps project that reality and avoid fear
+- Quantum manifestation protocol teaches how to escape matrix by changing frequency
+
+INSIGHTS:
+- Slowly and steadily raising frequency through diet, detox and positivity is key for ascension
+- AI and frequency sound healing technology is real and will be revealed to humanity 
+- Studying quantum manifestation and taking action on it is crucial to avoid manipulation
+- Choosing to act from the heart, even if you fail at times, keeps you on ascension path
+- Believing in and projecting a positive reality where humanity wins is a powerful choice
+- Automatic writing, meditation and lucid dreaming can lead to direct ET contact experiences
+- Music has been used to unbalance human frequency and can be used to realign it
+- First ET contact happens by creating a new timeline, not directly waking up in their reality
+- Negative renegade ETs exist but aren't part of this positive Pleiadian ET group
+- Focusing on creating your own reality avoids giving away your power to external sources
+
+QUOTES:
+- "Everything so far I talked to you is based on science."
+- "When you have molecular structure, and I'm going to explain to you this now, how this is possible to heal the cellular level."
+- "The heart is holding the vibrational sequences and has a specific sound vibration that actually is holding the vibration of the timeline of the resonances as a whole structure."
+- "You don't shift at once. It's a slow process and why is a slow process? Because the molecular structure of your body when is resonating in a certain frequency and you are a molecule that of course we talked about you are a molecule that expands to infinite and collapses to infinite you have a specific resonance."
+- "Anybody, anybody can tell you anything. That is the reason why you come to my sessions. I do not know exactly which your galactic family may be because it's a multiple, multiple layers who you're connected with."
+- "Everything that they were doing to us in the 3D is by frequency vibration."
+- "If you truly believe and know already the situation is changing and humanity won already and then that is what you're going to project. But if you're staying a fear, I cannot guarantee you how you're going to fluctuate your realities and what you're going to collapse."
+- "You're not running for the mountains in the 3D reality. You got to change the frequency perception so you can escape the timeline by you creating a new version of yourself."
+
+HABITS:
+- Detoxing the body through elimination diets every two weeks to raise frequency 
+- Practicing automatic writing, lucid dreaming and meditation to connect with ETs
+- Studying quantum manifestation material from season 1 onward to understand the knowledge
+- Choosing to act from the heart and positivity even when you fail to keep ascending
+- Projecting the reality you wish to experience, such as humanity winning, to avoid fear
+- Converting music to 432 Hz frequency to align with natural human resonance
+- Taking action on manifesting and creating your own reality to avoid manipulation 
+- Persevering with spiritual practices like a fighter, not giving up when it gets hard
+- Focusing on raising your own frequency and timeline instead of external negativity
+- Sharing knowledge freely to help liberate humanity instead of charging for information
+
+FACTS:
+- Artificial intelligence can measure precise frequencies to heal the body at the cellular level
+- The heart holds vibrational sequences and sound vibrations of the entire body's timeline 
+- Music has been weaponized to 440 Hz to unbalance the human body's natural 432 Hz
+- Oversoul consciousness can split into around 12 parallel timelines without being overwhelmed
+- First ET contact happens by creating a new timeline, not directly waking up in their reality
+- Renegade negative Pleiadians exist but aren't humanoid or part of this positive ET group
+- MKUltra programming can disconnect people from their heart and turn them into psychopaths
+- Molecules can be mutated into any structure desired through specific sound frequencies 
+- Shifting to 5D is a slow process so the body can handle the increasing frequency spin
+- Humanity is currently under an "umbrella of ascension" with both positive and negative paths
+
+REFERENCES:
+- Dr. Peter Gariaev's work on Wave Genetics using frequency and sound to heal the body
+- Season 1 onward of Marina Jacobi's Quantum Manifestation video series 
+- Season 3 Episode 8 video on practicing shifting consciousness to manifest
+- Galactic Meditation video that provides a blueprint for combining knowledge into meditation
+- Harmonic Reactor book by Marina Jacobi that discusses codes and advanced info
+- Freedom Awakening sub-channel on Marina's YouTube discussing matrix manipulation of humanity
+- Earlier videos by Marina discussing the weaponization of music to 440 Hz 
+- Marina's story of her heart being replaced and upgraded by ETs to hold portal codes
+- MKUltra government mind control program that can turn people into psychopaths
+
+ONE-SENTENCE TAKEAWAY:
+Raising your frequency through diet, meditation, and positive choices leads to ascension and ET contact.
+
+RECOMMENDATIONS:
+- Study quantum manifestation material from season 1 onward to understand the knowledge framework
+- Detox the body through regular elimination diets to raise your natural frequency
+- Practice automatic writing, lucid dreaming and meditation to initiate ET contact
+- Choose to act from the heart and positivity as much as possible to keep ascending
+- Project the reality you wish to see, like humanity winning, to avoid succumbing to fear
+- Convert music you listen to into 432 Hz to align with the human body's frequency
+- Take action on manifesting the reality you want instead of giving your power away
+- Persevere with spiritual practices when they get difficult and have fun with the journey
+- Focus on raising your own timeline and frequency instead of obsessing over 3D negativity
+- Share knowledge and gifts freely to help liberate others instead of charging for it
+
+<a href="https://rumble.com/vvvg6j-season-4-marina-jacobi-avatar-pods-first-contact-s4-e7.html" class="newspaper-link" >Click to watch the video.</a>
+</div>
+<div id="article16" class="full-text max-w-4xl mx-auto bg-white p-8 shadow-lg mt-4 preserve-newlines">
+Wisdom Extract of: (S4 E9 - Protocol To Manifest - Potency - Marina Jacobi)
+    
+SUMMARY:
+Marina Jacobi discusses the protocol to manifest and build potency in a one hour and four minute video.
+
+IDEAS:
+- Staying in positive resonance is key to manifesting desired realities and avoiding negative outcomes
+- Belief systems will be tested as negative and positive forces clash, revealing manipulation and evil
+- Galactic meditation involves creating a holographic blueprint, adding emotion, and taking consistent action
+- One plus one equals three: mind creates blueprint, heart activates it, action crystallizes it into matter
+- Shifting emotions from negative to positive in the moment is critical for manifesting positive realities
+- Rejecting manipulation and consenting to lies leads to realities that go against humanity
+- Doctors and scientists must question the narrative, even if it contradicts their training
+- Focusing on the positive without attachment or worry allows quick manifestation of lost objects
+- Practicing the manifestation protocol leads to faster manifestation by increasing vibrational potency
+- Karma must be cleared and understanding reached to avoid challenging situations as evil is revealed
+- Council of Nine advises not to leave the country or apply for things until June
+- Predictions are not given as they can disrupt the plans of positive forces
+- Repetition of manifestation may be needed, but consistent action without expectation is most important
+- Manifesting a positive state of mind without specifying circumstances is possible through visualization and action
+- Exposing negativity will ultimately lead to positive outcomes for those holding positive vibrations
+- Respecting others' fears while not dictating their actions avoids creating a mirror reality of judgment
+- Studying and practicing the metaphysical structure of manifestation is key to controlling consciousness and reality
+
+INSIGHTS:
+- Maintaining a high vibrational resonance through positive thoughts and actions is essential for manifesting desired realities.
+- Belief systems will be challenged as the clash between positive and negative forces intensifies, revealing manipulation and evil.
+- The galactic meditation protocol involves creating a holographic blueprint, infusing it with emotion, and taking consistent action to crystallize it into matter.
+- Shifting emotions from negative to positive in the moment is critical for collapsing positive realities and avoiding negative outcomes.
+- Rejecting manipulation and lies, even when it contradicts training or beliefs, is necessary to avoid consenting to actions that harm humanity.
+- Focusing on the positive without attachment allows for quick manifestation, as demonstrated by Marina's example of finding a lost object.
+- Repetition of the manifestation protocol increases vibrational potency, leading to faster manifestation with practice.
+- Karma must be cleared and understanding reached to navigate the challenging situations that will arise as evil is exposed.
+- Manifesting a positive state of mind is possible through visualization and consistent action, regardless of specific circumstances.
+- Studying and embodying the metaphysical structure of manifestation is key to mastering control over one's consciousness and reality.
+
+QUOTES:
+- "If you don't start questioning of the manipulation and to see that doesn't make sense, whatever they're telling you, and you go by the narrative that somebody is projecting you, things will start happening to you based on the resonance that you projected and is not going to go well because you're going against humanity itself."
+- "If you go into power and you say, I will not consent and I will do anything in the name of humanity and we do this as a collective, game over for the negative side."
+- "For these people, I want to tell you, it's time for you to take a stand and really start doing the right thing because you're going to lift yourself into the locations of realities that will be no more return."
+- "When you don't put the panic, but you just focus, overrided by knowing that just just a hologram and I'm gonna create for myself a reality that I know is there because what I did is actually I shut down the program of the panic."
+- "Your body is the vessel of a resonance frequency all the time but at the same time the state of your heart that is there is resonating through your entire structure and pulsating and 360 degrees in your field non-stop."
+- "In your hologram in a fractal momentum day in a daily basis your hologram from the heart or whatever you choose negative or positive will hold a resonance of frequency non-stop."
+- "If you have to, repeat it. And repeat and repeat this manifestation in season 3 episode 8 with practicing until you get it. Because they taught me the structure of already exist, but you're creating it at the same time."
+- "Through your action, you're not only changing your inner reality, but also the collective to infinity in your own reality. Reality within the reality. Everything changes."
+- "In actuality you literally you exist everywhere and nowhere at the same time because you're shifting non-stop."
+- "Learn the protocol at once then go back and i want you to study this if you have to repeat this video five times until you grasp it because you need to know the metaphysical field of who you are and how your consciousness matrix operates in order to control it because you are ether."
+
+HABITS:
+- Staying away from negative mainstream media and social media to maintain a positive resonance
+- Practicing shifting emotions from negative to positive in the moment, like an actor
+- Taking consistent action towards manifested goals without attachment to how they unfold
+- Questioning narratives and rejecting manipulation, even when it contradicts training or beliefs
+- Focusing on the positive without panic or worry, knowing reality is a hologram that can be shifted
+- Studying and embodying the metaphysical structure of manifestation through repetition and practice
+- Respecting others' fears and choices while maintaining one's own positive vibration and actions
+- Engaging in hobbies like crocheting to stay relaxed and in a positive state
+- Visualizing and feeling the emotions of desired realities as if they already exist
+- Constantly choosing positive thoughts and actions in daily life to maintain a high vibrational timeline
+
+FACTS:
+- Everything in the quantum structure is the entire reality; we exist in our own hologram
+- The Council of Nine advises not to leave the country or apply for things until June
+- Predictions are not given by higher consciousness as they can disrupt positive forces' plans
+- Doctors and scientists are seeing things that contradict their training but fear going against the narrative
+- Karma must be cleared and understanding reached to avoid challenging situations as evil is revealed
+- The clash between positive and negative forces will intensify, forcing a choice between manipulation and humanity
+- One plus one equals three in manifestation: mind creates blueprint, heart activates it, action crystallizes it
+- Repetition of the manifestation protocol increases vibrational potency, leading to faster manifestation with practice
+- We literally exist everywhere and nowhere at the same time because we are constantly shifting realities
+- Our reality is a mirror image of everything we project in the quantum structure
+
+REFERENCES:
+- Season 1, Episodes 1-4 of Quantum Manifestation series
+- Season 2, Episode 13 "Quantum Bylaws" 
+- Season 3, Episode 8 on practising manifestation
+- Galactic Meditation quantum structure video
+- Becoming an American Nationalist website and webinars
+- Marina's personal example of quickly manifesting a lost computer part
+- Council of Nine's advice not to leave the country or apply for things until June
+- Acting techniques for shifting emotions on command
+- Importance of studying metaphysical structure of manifestation
+- Crocheting as a relaxing, positive hobby
+
+ONE-SENTENCE TAKEAWAY:
+Mastering the metaphysical structure of manifestation through visualization, emotion, and consistent action is key to controlling one's reality.
+
+RECOMMENDATIONS:
+- Study and embody the galactic meditation manifestation protocol until it becomes second nature
+- Practice shifting emotions from negative to positive in the moment, like an actor
+- Take consistent action towards manifested goals without attachment to how they unfold
+- Question narratives and reject manipulation, even when it contradicts training or beliefs
+- Focus on the positive without panic, knowing reality is a hologram that can be shifted
+- Engage in hobbies and activities that promote relaxation and a positive state of being
+- Visualize and feel desired realities with emotion as if they already exist
+- Choose positive thoughts and actions in daily life to maintain a high vibrational timeline
+- Clear karma and develop understanding to navigate challenges as evil is exposed
+- Respect others' fears and choices while maintaining one's own positive vibration and actions
+- Repeat exposure to teachings on the metaphysical structure of reality until fully grasped
+- Avoid mainstream media and influences that lower your vibrational resonance
+- Trust in the plans of positive forces without needing to know all the details
+- Recognize that your reality is a mirror of your own projections, not others' actions
+- Understand that you exist everywhere and nowhere simultaneously as you shift realities
+
+<a href="https://rumble.com/vvvhra-season-4-marina-jacobi-protocol-to-manifest-potency-s4-e9.html" class="newspaper-link" >Click to watch the video.</a>
+</div>
+<script src="script.js"></script>
+
+<script type="text/javascript" src="https://www.free-counters.org/count/fsq1"></script><br>
+<a href='https://www.acadoo.de/fachrichtungen/ghostwriter-medizin/'>Abschlussarbeit Medizin Ghostwriter</a> 
+<script type='text/javascript' src='https://whomania.com/ctr?id=2d2b381fb26ffa6e1de7987c26829b695adc146e'></script>
+</body>
+
+</html>
