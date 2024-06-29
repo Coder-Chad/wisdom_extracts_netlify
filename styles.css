@@ -1,7 +1,7 @@
 body {
     /* font-family: 'Times New Roman', Times, serif; */
     font-family: 'Crimson Text', serif;
-    background-color: #f4f1e8;
+    background-color: #F4F0F4;
     margin: 0;
     padding: 20px;
 }
@@ -90,3 +90,12 @@ p {
 .preserve-newlines {
     white-space: pre-wrap;
   }
+
+a {
+    color: #E9D4EE;
+    
+}
+
+a:hover {
+    color: blue;
+}
